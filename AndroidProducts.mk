@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2020 The LineageOS Project
-# Copyright (C) 2020-2021 The xdroidCAF Project
+# Copyright (C) 2021 The xdroid Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
