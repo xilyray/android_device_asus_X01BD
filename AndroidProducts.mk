@@ -9,4 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/xdroid_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_X01BD-userdebug
+    xdroid_X01BD-userdebug \
+    xdroid_X01BD-eng \
+    xdroid_X01BD-user
