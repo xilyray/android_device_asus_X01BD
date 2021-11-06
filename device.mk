@@ -14,11 +14,10 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-xdroid
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-xdroid/xdroid-sdk
+    $(LOCAL_PATH)
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
