@@ -21,7 +21,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 XDROID_BUILD_TYPE := STBL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_X01BD
+PRODUCT_NAME := xdroid_X01BD
 PRODUCT_DEVICE := X01BD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BD
