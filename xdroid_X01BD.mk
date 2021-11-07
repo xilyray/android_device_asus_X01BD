@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The xdroid Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,11 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common xdroid stuff
+$(call inherit-product, vendor/xdroid/config/common.mk)
+XDROID_BOOT_DARK := true
+XDROID_UI_BLUR := true
 
 # Inherit from X01BD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
+
+# Build type
+XDROID_BUILD_TYPE := STBL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_X01BD
