@@ -24,6 +24,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Build Broken Libraries
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
+# Build Tag
+AWAKEN_BUILD_TYPE := OFFICIAL-4.19
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := awaken_X01BD
 PRODUCT_DEVICE := X01BD
